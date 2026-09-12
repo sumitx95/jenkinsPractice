@@ -9,11 +9,12 @@ test('Login test', async ({ page }) => {
   await expect(page).toHaveTitle('Swag Labs');
 });
 
+//fail intentionaly for practice
 test("Practice Test 1", async ({ page }) => {
     console.log("Starting Practice Test 1");
     await page.goto("https://www.google.com/");
     console.log(await page.title());
-    await expect(page).toHaveTitle("Google")
+    await expect(page).toHaveTitle("Googgle")
     console.log("Ending Practice Test 1");
 })
 
