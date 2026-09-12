@@ -32,3 +32,13 @@ test("Practice Test 6  @Dev", async ({ page }) => {
     await expect(page).toHaveTitle("Google")
     console.log("Ending Practice Test 3");
 })
+
+//for pulling request
+
+test("Practice Test 7", async ({ page }) => {
+    console.log("Starting Practice Test 3");
+    await page.goto("https://www.google.com/");
+    console.log(await page.title());
+    await expect(page).toHaveTitle("Google")
+    console.log("Ending Practice Test 3");
+})
