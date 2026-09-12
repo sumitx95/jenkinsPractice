@@ -11,7 +11,7 @@ test('Login test', async ({ page }) => {
 
 //fail intentionaly for practice  
 
-//now correction done
+//jenkins with git ingration check
 test("Practice Test 1", async ({ page }) => {
     console.log("Starting Practice Test 1");
     await page.goto("https://www.google.com/");
