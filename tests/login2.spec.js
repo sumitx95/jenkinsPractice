@@ -35,6 +35,8 @@ test("Practice Test 6  @Dev", async ({ page }) => {
 
 //for pulling request
 
+//Source Code Managemnet SCM check
+
 test("Practice Test 7", async ({ page }) => {
     console.log("Starting Practice Test 3");
     await page.goto("https://www.google.com/");
